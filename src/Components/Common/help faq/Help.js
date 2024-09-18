@@ -1,9 +1,10 @@
 import React from 'react'
+import HelpAndFAQ from './HelpAndFAQ'
 
 const Help = () => {
   return (
     <div>
-      Help FAQ
+      <HelpAndFAQ/>
     </div>
   )
 }

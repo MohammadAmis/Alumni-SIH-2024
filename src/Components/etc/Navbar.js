@@ -43,11 +43,12 @@ const Navbar = () => {
           <>
             <Link to="/" className="text-white text-xl hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">Home</Link>
             <Link to="/events" className="text-white text-xl hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">Events&Programs</Link>
+            <Link to="/success-story" className="text-white text-xl hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">Success Stories</Link>
             <Link to="/about" className="text-white text-xl hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">About</Link>
             <Link to="/alumni-directory" className="text-white text-xl hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">Alumni</Link>
             <Link to="/job-portal" className="text-white text-xl hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">Jobs&Internship</Link>
-            <Link to="/news" className="text-white text-xl  hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">News&Opinion</Link>
-            <Link to="/help" className="text-white text-xl  hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">Help&FAQ</Link>
+            <Link to="/news" className="text-white text-xl  hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">News</Link>
+            <Link to="/help" className="text-white text-xl  hover:text-black hover:bg-slate-300 hover:px-5 hover:py-2 hover:rounded-lg flex items-center space-x-1">Help</Link>
           </>
           )}
           

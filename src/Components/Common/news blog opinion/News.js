@@ -1,9 +1,10 @@
 import React from 'react'
+import AlumniNews from './AlumniNews'
 
 const News = () => {
   return (
     <div>
-      news bolg opinion
+      <AlumniNews/>
     </div>
   )
 }

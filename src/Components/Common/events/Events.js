@@ -1,9 +1,10 @@
 import React from 'react'
+// import PostNews from './PostNews';
 
 const Events = () => {
   return (
     <div>
-      Events
+      {/* <PostNews/> */}
     </div>
   )
 }

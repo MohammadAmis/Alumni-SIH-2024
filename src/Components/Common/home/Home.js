@@ -70,7 +70,7 @@ const Home = () => {
               </div>
           </div>
       </section>
-
+      <section className='my-5 mx-16 text-2xl font-semibold'>ShortCuts</section>
       <section className='grid md:grid-cols-2 lg:grid-cols-3  xl:grid-cols-5 my-5 mx-16 gap-4 pb-10 border-b-2'>
 
         <div className='border-2 rounded-2xl hover:-translate-y-4 bg-blue-950 text-white shadow-1xl flex  items-center flex-col p-5 gap-3 cursor-pointer'>
