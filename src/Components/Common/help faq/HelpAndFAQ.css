@@ -1,0 +1,136 @@
+.help-and-faq-container {
+    font-family: 'Helvetica Neue', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .help-and-faq-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .help-and-faq-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .faq-search input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .faq-categories .faq-category {
+    margin-bottom: 20px;
+  }
+  
+  .category-title {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .category-title:hover {
+    color: #0056b3;
+  }
+  
+  .faq-question {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-answer {
+    padding: 10px 0;
+    display: none;
+    color: #666;
+  }
+  
+  .faq-answer.active {
+    display: block;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .recent-updates ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .help-resources ul,
+  .recent-updates ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .help-resources li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .help-resources li a:hover {
+    text-decoration: underline;
+  }
+  
+  .chat-support button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .chat-support button:hover {
+    background-color: #218838;
+  }
+  
+  .chat-support p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .form-success {
+    color: green;
+    margin-top: 10px;
+  }
+  
